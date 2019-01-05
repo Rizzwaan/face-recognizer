@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
-
 import Signin from './components/Signin/Signin' ;
 import Register from './components/Register/Register' ;
 import Navigation from './components/Navigation/Navigation' ;

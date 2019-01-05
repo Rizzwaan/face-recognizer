@@ -1,4 +1,5 @@
 import React from 'react';
+import Input from 'react-input'
  
 
 class Register extends React.Component  {
@@ -17,7 +18,7 @@ class Register extends React.Component  {
 
 
 			onEmailChange = (event) => {
-				this.setState({email: event.target.value})
+				this.setState({email: event.target.value.trim()})
 	         }
 
 		    onPasswordChange = (event) => {
@@ -67,6 +68,7 @@ class Register extends React.Component  {
 			        type="email" 
 			        name="email-address"  
 			        id="email-address"
+			        required
                     onChange = { this.onEmailChange }
 			        />
 			      </div>

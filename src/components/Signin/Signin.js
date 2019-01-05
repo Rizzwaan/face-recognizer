@@ -50,6 +50,7 @@ class Signin extends React.Component  {
 			        type="email" 
 			        name="email-address"  
 			        id="email-address"
+			        required
               onChange= {this.onEmailChange}
 			        />
 				      </div>
